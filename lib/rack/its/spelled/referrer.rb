@@ -13,9 +13,9 @@ module Rack
 
           return @app.call env unless referer
 
-          referred_env = fix_spelling env, referer
+          fix_spelling env, referer
 
-          return @app.call referred_env
+          return @app.call env
         end
 
         private
