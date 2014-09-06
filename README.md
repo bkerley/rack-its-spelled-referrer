@@ -14,13 +14,14 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install rack-its-spelled-referrer
-
 ## Usage
 
-TODO: Write usage instructions here
+In the `config.ru` of your Rack application:
+
+```ruby
+require 'rack/its/spelled/referrer'
+use Rack::Its::Spelled::Referrer
+```
 
 ## Contributing
 
