@@ -23,4 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   
   spec.add_dependency "rack", "~> 1.0"
+
+  spec.required_ruby_version = '>= 1.9.3'
 end
