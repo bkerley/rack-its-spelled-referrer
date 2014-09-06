@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Rack::Its::Spelled::Referrer::VERSION
   spec.authors       = ["Bryce Kerley"]
   spec.email         = ["bkerley@brycekerley.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.summary       = %q{Fixes a misspelling in HTTP.}
+  spec.description   = %q{Copies the `referer` header to `referrer`.}
+  spec.homepage      = "https://github.com/bkerley/rack-its-spelled-referrer"
+  spec.license       = "CC0"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

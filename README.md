@@ -1,6 +1,6 @@
 # Rack::Its::Spelled::Referrer
 
-TODO: Write a gem description
+Copies the `referer` header to `referrer`.
 
 ## Installation
 
@@ -24,7 +24,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/rack-its-spelled-referrer/fork )
+1. Fork it ( https://github.com/bkerley/rack-its-spelled-referrer/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
